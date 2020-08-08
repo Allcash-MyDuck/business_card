@@ -10,6 +10,8 @@ import Img7 from '../../../pictures/photo7.jpg'
 import Img8 from '../../../pictures/photo8.jpg'
 import Img9 from '../../../pictures/photo9.jpg'
 import Img10 from '../../../pictures/photo10.jpg'
+import Img11 from '../../../pictures/photo11.jpg'
+
 
 import C from './Slider.module.css'
 
@@ -27,6 +29,7 @@ class SimpleSlider extends React.Component {
             { url: Img8 },
             { url: Img9 },
             { url: Img10 },
+            { url: Img11 },
         ];
 
         return (
