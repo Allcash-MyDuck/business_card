@@ -138,10 +138,13 @@ class AppSnake extends Component {
 
     render() {
         return (
-
+<div>
                 <div className="game-area">
                     <Snake snakeDots={this.state.snakeDots} />
                     <Food dot={this.state.food} />
+                </div>
+                {/* <button onClick={this.render()} id='butt'></button> */}
+
                 </div>
         )
     }

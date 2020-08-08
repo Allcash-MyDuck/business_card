@@ -11,7 +11,7 @@ const Main = () => {
                 <div className={C.my_decs_wrapp}>
                     <h3>A few words about me</h3>
                     <div className={C.descrip}>
-                       All my life I have been looking for dream job... I studied in the university, specialty "computer science", and even then I couldn't imageine who I want to work in the future. For the first time I thought about this when I was 5-6 years old, and this mind haunted me for many years. Once I seriously decided to take my mind and take a closer look. And suddenly I realized that my dream job was nearby, I just didn't notice it. I went to programming courses, then watched a lot of video tutorials on YouTube.Then I realized that I had found my destiny. <b><p>And now I'm looking for a job. =)</p> </b>
+                       All my life I have been looking for dream job... I studied in the university, specialty "computer science", and even then I couldn't imagine who I want to work in the future. For the first time I thought about this when I was 5-6 years old, and this mind haunted me for many years. Once I seriously decided to take my mind and take a closer look. And suddenly I realized that my dream job was nearby, I just didn't notice it. I went to programming courses, then watched a lot of video tutorials on YouTube.Then I realized that I had found my destiny. <b><p>And now I'm looking for a job. =)</p> </b>
  
 
                        </div>

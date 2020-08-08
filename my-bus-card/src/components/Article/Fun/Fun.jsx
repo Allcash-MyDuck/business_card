@@ -1,11 +1,11 @@
 import React from 'react';
 import C from './Fun.module.css'
 import AppSnake from './Snake/AppSnake';
-// import Calc from './calc/Calc';
 const Fun = (props) => {
     return(
         <div className={C.page_wrapper}>
-<AppSnake />
+            <div className={C.vision}><AppSnake className={C.vision}/></div>
+            <div className={C.vision_words}><h1>Try to use your PC. =)</h1></div>
          </div>
     )
 }

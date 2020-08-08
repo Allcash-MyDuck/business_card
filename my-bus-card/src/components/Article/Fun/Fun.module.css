@@ -1,0 +1,15 @@
+.vision_words{
+    display: none;
+}
+
+@media(max-width:900px){
+    .vision{
+        display: none;
+    }
+    .vision_words{
+        display: inline;
+    }
+    .page_wrapper{
+        height: 650px;
+    }
+}
