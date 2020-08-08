@@ -5,6 +5,11 @@
  'nav'
  'article'
  'footer';
- grid-template-rows: 100px auto 1fr;
+ grid-template-rows: 100px auto auto auto;
  grid-gap: 5px;
+}
+.pages-wrapper{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }

@@ -1,6 +1,30 @@
 .nav{
     background-color: red;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
 }
-.line{
-    border-bottom-style: dashed;
+
+.nav a{
+    text-decoration: none;
+    color: black;
+margin-right: 40px;
+}
+.link_wrapper{
+    position: relative;
+    margin-right: 20%;
+}
+.activeLink{
+    font-weight: bold;
+}
+
+@media (max-width: 500px){
+    .link_wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+margin: unset;
+
+    }
+
 }

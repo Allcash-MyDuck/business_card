@@ -1,0 +1,12 @@
+.slider_wrapper{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+
+@media (max-width:500px){
+    .slider_wrapper{
+        margin-left: -25px;
+    }
+}

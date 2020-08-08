@@ -1,3 +1,15 @@
-.main{
-background-color: green;
+.main h2{
+    text-align: center;
+}
+.contact_1 img{
+    width: 32px;
+    height: 32px;
+}
+.contact_2 img{
+width: 30px;
+height: 20px;
+}
+.phone{
+    width: 40px;
+    height: 40px;
 }

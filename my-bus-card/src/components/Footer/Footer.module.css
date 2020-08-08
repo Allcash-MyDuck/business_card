@@ -1,13 +1,55 @@
 .footer{
-    background-color: yellow;
+    background-color: rgba(0, 0, 0, 0.658);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.soc_wrap{
+width: 150px;
+}
+.cont_wrap{
+    display: flex;
+    flex-direction: column;
+}
+.social {
+    margin-right: 20px;
 }
 .social img {
     width: 30px;
     height: 30px;
 }
-.social {
-    margin-right: 20px;
+.soc_wrap h4{
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.cont_wrap h4{
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.contact{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
 
+@media (max-width: 500px){
+  .social{
+      margin-left: 17px;
+  }
+  .upSoc{
+      margin-top: -10px;
+  }
+  .downSoc{
+      margin-top: 5px;
+      margin-left: 35px;
+  }
+  .contact{
+      margin-right: 10px;
+  }
 }
